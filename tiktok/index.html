@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Fetch login</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;margin:0;padding:24px;background:#fff;color:#111}@media(prefers-color-scheme:dark){body{background:#141414;color:#eee}}</style>
+</head><body>
+<p>Finishing The Fetch login on your computer...</p>
+<script>
+// TikTok sends the one-time login code here (https). This page only hands it to the app waiting on this computer;
+// it stores nothing and sends nothing anywhere else.
+location.replace('http://localhost:8723/callback' + location.search);
+</script>
+</body></html>
